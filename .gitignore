@@ -1,1 +1,3 @@
 .idea
+node_modules
+modules/boutique-list/v1/webpack.config.js
