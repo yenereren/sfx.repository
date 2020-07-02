@@ -1,7 +1,8 @@
 const axios = require('axios');
 
 
-const service = async () => {
+const service = async (req,res) => {
+    
     const requestUrl = "https://my-json-server.typicode.com/yenereren/sfx.fakeapi/homepage"
     const response = (await axios.get(requestUrl)).data;
 
